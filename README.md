@@ -13,9 +13,9 @@ unfold-text| 内置控制按钮展开的文案 | String | - | “展开”
 
 # collapse Slots
 
-name | 说明
-----  | ----  |
-- | 组件中的内容
+| name | 说明
+| ----  | ----  |
+| - | 组件中的内容
 
 <br>
 
