@@ -152,7 +152,7 @@ export default {
 }
 </script>
 
-<style lang='scss' scoped>
+<style scoped>
 .collapse{
     width: 100%;
     position: relative;
