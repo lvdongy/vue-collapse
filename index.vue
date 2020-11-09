@@ -152,25 +152,23 @@ export default {
 }
 </script>
 
-<style lang='scss' scope>
+<style lang='scss' scoped>
 .collapse{
     width: 100%;
     position: relative;
     overflow: hidden;
     transition: height .28s ease-in-out;
-
-    &-controll{
-        position: absolute;
-        bottom: 0px;
-        right: 8px;
-        font-size: 14px;
-        font-weight: 400;
-        color: #6ABCFF;
-        cursor: pointer;
-
-        &-icon{
-            margin-right: 2px;
-        }
-    }
+}
+.collapse-controll{
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6ABCFF;
+    cursor: pointer;
+}
+.collapse-controll-icon{
+    margin-right: 2px;
 }
 </style>
